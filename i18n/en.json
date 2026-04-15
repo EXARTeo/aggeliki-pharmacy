@@ -1,0 +1,135 @@
+{
+  "brand": {
+    "name": "Plataria Pharmacy"
+  },
+  "a11y": {
+    "skip": "Skip to content"
+  },
+  "nav": {
+    "hours": "Hours",
+    "services": "Services",
+    "bio": "Pharmacist",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "cta": {
+    "call": "Call us",
+    "call_short": "Call",
+    "find_us": "Find us"
+  },
+  "hero": {
+    "eyebrow": "Your pharmacy in Plataria, Thesprotia",
+    "title": "Your health, right by the sea.",
+    "subtitle": "Prescriptions, vaccinations, health checks and expert advice — delivered with care and a human touch."
+  },
+  "status": {
+    "loading": "Loading hours…",
+    "open_closes_at": "Open · closes at {{time}}",
+    "closing_soon": "Closing in {{mins}} minutes",
+    "closed": "Closed",
+    "closed_opens_today": "Closed · opens today at {{time}}",
+    "closed_opens_on": "Closed · opens {{day}} at {{time}}",
+    "days": {
+      "sun": "Sunday",
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday"
+    }
+  },
+  "hours": {
+    "title": "Opening hours",
+    "weekdays": "Monday – Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed *",
+    "tz": "Greek time (Europe/Athens)",
+    "duty": "* For on-duty hours outside of opening times, please consult the <strong>Thesprotia Pharmaceutical Association</strong>."
+  },
+  "services": {
+    "title": "Services",
+    "intro": "Everyday healthcare for the residents of Plataria and its visitors.",
+    "items": {
+      "prescriptions": {
+        "title": "Prescriptions",
+        "body": "Electronic and handwritten prescriptions — EOPYY and private."
+      },
+      "vaccinations": {
+        "title": "Vaccinations",
+        "body": "Seasonal flu, travel and booster shots — officially registered."
+      },
+      "bp": {
+        "title": "Blood pressure",
+        "body": "Free blood-pressure measurement with personal history tracking."
+      },
+      "glucose": {
+        "title": "Glucose & cholesterol",
+        "body": "Quick capillary-blood tests with dietary advice."
+      },
+      "consult": {
+        "title": "Pharmaceutical advice",
+        "body": "Interaction checks, chronic-therapy guidance, OTC selection."
+      },
+      "orthopedic": {
+        "title": "Orthopedic supplies",
+        "body": "Splints, belts, supports and mobility aids."
+      },
+      "baby": {
+        "title": "Baby & child",
+        "body": "Formula, teats, hygiene products and vitamins for the little ones."
+      },
+      "cosmetics": {
+        "title": "Cosmetics & parapharma",
+        "body": "Selected dermo-cosmetic and high-protection sunscreen ranges."
+      },
+      "delivery": {
+        "title": "Local delivery",
+        "body": "Delivery within Plataria for elderly and reduced-mobility patients."
+      }
+    }
+  },
+  "bio": {
+    "title": "Your pharmacist",
+    "caption": "{{PHARMACIST_NAME}} — Pharmacist",
+    "paragraph1": "<strong>{{PHARMACIST_NAME}}</strong> holds a degree in Pharmacy from {{UNIVERSITY}} ({{GRAD_YEAR}}) and has been serving the Plataria community since {{SINCE_YEAR}}.",
+    "paragraph2": "With a particular focus on chronic-disease management and care for older patients, the emphasis is on what matters most: the right treatment, at the right dose, with clear instructions.",
+    "paragraph3": "A member of the Thesprotia Pharmaceutical Association and a regular participant in continuing-education programs. Drop in for a chat — your first consultation is always free.",
+    "cred": {
+      "degree": "Degree in Pharmacy, {{UNIVERSITY}}",
+      "license": "Professional license: {{LICENSE_NUMBER}}",
+      "association": "Member, Thesprotia Pharmaceutical Association",
+      "languages": "Languages: Greek, English"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "intro": "A glimpse of our space and daily life.",
+    "items": {
+      "exterior": "Storefront",
+      "counter": "Service counter",
+      "shelves": "Product shelves",
+      "consultation": "Consultation area",
+      "cosmetics": "Dermo-cosmetics",
+      "measurement": "Measurement station"
+    }
+  },
+  "contact": {
+    "title": "Contact & location",
+    "phone_label": "Phone",
+    "address_label": "Address",
+    "hours_label": "Hours",
+    "hours_link": "See full opening hours",
+    "copy_address": "Copy",
+    "directions": "Directions",
+    "open_map": "Open in Google Maps",
+    "show_interactive": "Interactive map"
+  },
+  "footer": {
+    "hours_title": "Hours",
+    "hours_line1": "Mon–Fri: 08:00–14:00 · 17:30–21:00",
+    "hours_line2": "Sat: 08:30–14:00 · Sun: closed",
+    "license": "License: {{LICENSE_NUMBER}}"
+  }
+}

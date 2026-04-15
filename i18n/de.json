@@ -1,0 +1,135 @@
+{
+  "brand": {
+    "name": "Apotheke Plataria"
+  },
+  "a11y": {
+    "skip": "Zum Inhalt springen"
+  },
+  "nav": {
+    "hours": "Öffnungszeiten",
+    "services": "Leistungen",
+    "bio": "Der Apotheker",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "call": "Rufen Sie uns an",
+    "call_short": "Anrufen",
+    "find_us": "So finden Sie uns"
+  },
+  "hero": {
+    "eyebrow": "Ihre Apotheke in Plataria, Thesprotia",
+    "title": "Ihre Gesundheit, direkt am Meer.",
+    "subtitle": "Rezepte, Impfungen, Messungen und fachliche Beratung — mit Sorgfalt und Menschlichkeit."
+  },
+  "status": {
+    "loading": "Öffnungszeiten laden…",
+    "open_closes_at": "Geöffnet · schließt um {{time}}",
+    "closing_soon": "Schließt in {{mins}} Minuten",
+    "closed": "Geschlossen",
+    "closed_opens_today": "Geschlossen · öffnet heute um {{time}}",
+    "closed_opens_on": "Geschlossen · öffnet {{day}} um {{time}}",
+    "days": {
+      "sun": "Sonntag",
+      "mon": "Montag",
+      "tue": "Dienstag",
+      "wed": "Mittwoch",
+      "thu": "Donnerstag",
+      "fri": "Freitag",
+      "sat": "Samstag"
+    }
+  },
+  "hours": {
+    "title": "Öffnungszeiten",
+    "weekdays": "Montag – Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "closed": "Geschlossen *",
+    "tz": "Griechische Zeit (Europe/Athens)",
+    "duty": "* Für Notdienstzeiten außerhalb der Öffnungszeiten wenden Sie sich bitte an die <strong>Apothekerkammer Thesprotia</strong>."
+  },
+  "services": {
+    "title": "Leistungen",
+    "intro": "Alltägliche Gesundheitsversorgung für die Einwohner und Besucher von Plataria.",
+    "items": {
+      "prescriptions": {
+        "title": "Rezepte",
+        "body": "Elektronische und handschriftliche Rezepte — EOPYY und privat."
+      },
+      "vaccinations": {
+        "title": "Impfungen",
+        "body": "Saisonale Grippe, Reiseimpfungen, Auffrischungen — offiziell registriert."
+      },
+      "bp": {
+        "title": "Blutdruckmessung",
+        "body": "Kostenlose Blutdruckmessung mit persönlicher Verlaufsaufzeichnung."
+      },
+      "glucose": {
+        "title": "Blutzucker & Cholesterin",
+        "body": "Schnelltests aus Kapillarblut mit Ernährungsberatung."
+      },
+      "consult": {
+        "title": "Pharmazeutische Beratung",
+        "body": "Wechselwirkungsprüfung, Beratung bei Dauertherapien, OTC-Auswahl."
+      },
+      "orthopedic": {
+        "title": "Orthopädiebedarf",
+        "body": "Schienen, Bandagen, Stützen und Mobilitätshilfen."
+      },
+      "baby": {
+        "title": "Baby & Kind",
+        "body": "Milchnahrung, Sauger, Hygieneprodukte und Vitamine für die Kleinen."
+      },
+      "cosmetics": {
+        "title": "Kosmetik & Parapharmazie",
+        "body": "Ausgewählte Dermokosmetik- und Sonnenschutz-Linien."
+      },
+      "delivery": {
+        "title": "Lieferung in Plataria",
+        "body": "Lokaler Lieferdienst für ältere und mobilitätseingeschränkte Patienten."
+      }
+    }
+  },
+  "bio": {
+    "title": "Ihr Apotheker",
+    "caption": "{{PHARMACIST_NAME}} — Apotheker/in",
+    "paragraph1": "<strong>{{PHARMACIST_NAME}}</strong> ist Absolvent/in der Pharmazie an der Universität {{UNIVERSITY}} ({{GRAD_YEAR}}) und betreut die Gemeinde Plataria seit {{SINCE_YEAR}}.",
+    "paragraph2": "Mit einem besonderen Schwerpunkt auf chronischen Erkrankungen und der Betreuung älterer Patienten liegt der Fokus auf dem Wesentlichen: die richtige Therapie, in der richtigen Dosis, mit klaren Anweisungen.",
+    "paragraph3": "Mitglied der Apothekerkammer Thesprotia und regelmäßige/r Teilnehmer/in an Fortbildungsprogrammen. Kommen Sie für ein Gespräch vorbei — die erste Beratung ist immer kostenlos.",
+    "cred": {
+      "degree": "Diplom in Pharmazie, {{UNIVERSITY}}",
+      "license": "Berufserlaubnis: {{LICENSE_NUMBER}}",
+      "association": "Mitglied, Apothekerkammer Thesprotia",
+      "languages": "Sprachen: Griechisch, Englisch, Deutsch"
+    }
+  },
+  "gallery": {
+    "title": "Galerie",
+    "intro": "Ein Einblick in unsere Räume und unseren Alltag.",
+    "items": {
+      "exterior": "Außenansicht",
+      "counter": "Verkaufstresen",
+      "shelves": "Produktregale",
+      "consultation": "Beratungsbereich",
+      "cosmetics": "Dermokosmetik",
+      "measurement": "Messstation"
+    }
+  },
+  "contact": {
+    "title": "Kontakt & Standort",
+    "phone_label": "Telefon",
+    "address_label": "Adresse",
+    "hours_label": "Öffnungszeiten",
+    "hours_link": "Vollständige Öffnungszeiten",
+    "copy_address": "Kopieren",
+    "directions": "Wegbeschreibung",
+    "open_map": "In Google Maps öffnen",
+    "show_interactive": "Interaktive Karte"
+  },
+  "footer": {
+    "hours_title": "Öffnungszeiten",
+    "hours_line1": "Mo–Fr: 08:00–14:00 · 17:30–21:00",
+    "hours_line2": "Sa: 08:30–14:00 · So: geschlossen",
+    "license": "Lizenz: {{LICENSE_NUMBER}}"
+  }
+}

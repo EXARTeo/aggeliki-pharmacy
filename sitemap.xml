@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://{{DOMAIN}}/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://{{DOMAIN}}/?lang=el"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{DOMAIN}}/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{DOMAIN}}/?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{DOMAIN}}/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{DOMAIN}}/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
