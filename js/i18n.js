@@ -24,7 +24,7 @@ function getKey(dict, path) {
 }
 
 async function loadDict(lang) {
-  const res = await fetch(`/i18n/${lang}.json`, { cache: 'default' });
+  const res = await fetch(`i18n/${lang}.json`, { cache: 'default' });
   if (!res.ok) throw new Error(`i18n: failed to load ${lang}`);
   return res.json();
 }

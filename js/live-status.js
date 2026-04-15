@@ -102,7 +102,7 @@ let cachedDict = null;
 async function fetchDict() {
   const lang = document.documentElement.lang || 'el';
   try {
-    const res = await fetch(`/i18n/${lang}.json`, { cache: 'default' });
+    const res = await fetch(`i18n/${lang}.json`, { cache: 'default' });
     if (res.ok) return res.json();
   } catch {}
   return null;
