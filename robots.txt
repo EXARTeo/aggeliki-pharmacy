@@ -16,4 +16,4 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-Sitemap: https://{{DOMAIN}}/sitemap.xml
+Sitemap: https://pharmacyplataria.com/sitemap.xml
