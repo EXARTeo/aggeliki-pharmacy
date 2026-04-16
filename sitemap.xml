@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://{{DOMAIN}}/</loc>
-    <xhtml:link rel="alternate" hreflang="el" href="https://{{DOMAIN}}/?lang=el"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{DOMAIN}}/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{DOMAIN}}/?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{DOMAIN}}/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://{{DOMAIN}}/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{DOMAIN}}/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{DOMAIN}}/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{DOMAIN}}/de/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://{{DOMAIN}}/"/>
+    <image:image>
+      <image:loc>https://{{DOMAIN}}/assets/images/og-cover.jpg</image:loc>
+      <image:title>Φαρμακείο Πλαταριάς — πολύγλωσσο φαρμακείο</image:title>
+      <image:caption>Plataria Pharmacy — multilingual pharmacy in Plataria, Thesprotia</image:caption>
+    </image:image>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://{{DOMAIN}}/en/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://{{DOMAIN}}/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{DOMAIN}}/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{DOMAIN}}/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{DOMAIN}}/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{DOMAIN}}/"/>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://{{DOMAIN}}/it/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://{{DOMAIN}}/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{DOMAIN}}/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{DOMAIN}}/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{DOMAIN}}/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{DOMAIN}}/"/>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://{{DOMAIN}}/de/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://{{DOMAIN}}/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{DOMAIN}}/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{DOMAIN}}/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{DOMAIN}}/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{DOMAIN}}/"/>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>

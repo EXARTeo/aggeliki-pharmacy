@@ -74,62 +74,38 @@ function render(pill, status, dict) {
   const t = dict?.status ?? {};
 
   if (status.state === 'open') {
-    const label = t.open_closes_at ?? `Ανοιχτά · κλείνει στις ${status.closesAt}`;
+    const label = t.open_closes_at ?? `Open · closes at ${status.closesAt}`;
     textEl.textContent = label.replace('{{time}}', status.closesAt);
   } else if (status.state === 'closing') {
-    const label = t.closing_soon ?? `Κλείνει σε ${status.minsLeft} λεπτά`;
+    const label = t.closing_soon ?? `Closing in ${status.minsLeft} minutes`;
     textEl.textContent = label.replace('{{mins}}', String(status.minsLeft));
   } else if (status.state === 'closed') {
     if (!status.next) {
-      textEl.textContent = t.closed ?? 'Κλειστά';
+      textEl.textContent = t.closed ?? 'Closed';
       return;
     }
     const dayKey = DAY_KEYS[status.next.day];
     const dayLabel = t.days?.[dayKey] ?? dayKey;
     const timeStr = formatHM(status.next.mins);
     if (status.next.daysAhead === 0) {
-      const label = t.closed_opens_today ?? `Κλειστά · ανοίγει στις ${timeStr}`;
+      const label = t.closed_opens_today ?? `Closed · opens at ${timeStr}`;
       textEl.textContent = label.replace('{{time}}', timeStr);
     } else {
-      const label = t.closed_opens_on ?? `Κλειστά · ανοίγει ${dayLabel} ${timeStr}`;
+      const label = t.closed_opens_on ?? `Closed · opens ${dayLabel} ${timeStr}`;
       textEl.textContent = label.replace('{{day}}', dayLabel).replace('{{time}}', timeStr);
     }
   }
 }
 
-let cachedDict = null;
-
-async function fetchDict() {
-  const lang = document.documentElement.lang || 'el';
-  try {
-    const res = await fetch(`i18n/${lang}.json`, { cache: 'default' });
-    if (res.ok) return res.json();
-  } catch {}
-  return null;
-}
-
-async function tick() {
+function tick() {
   const pills = document.querySelectorAll('[data-status-pill]');
   if (!pills.length) return;
   const status = currentStatus();
-  cachedDict ??= await fetchDict();
-  pills.forEach(p => render(p, status, cachedDict));
-
-  const nextEl = document.querySelector('[data-status-next]');
-  if (nextEl && status.state === 'closed' && status.next) {
-    const dayKey = DAY_KEYS[status.next.day];
-    const dayLabel = cachedDict?.status?.days?.[dayKey] ?? dayKey;
-    nextEl.textContent = `Ανοίγει ${status.next.daysAhead === 0 ? '' : dayLabel + ' '}στις ${formatHM(status.next.mins)}`;
-  } else if (nextEl) {
-    nextEl.textContent = '';
-  }
+  const dict = window.PP_I18N ?? null;
+  pills.forEach(p => render(p, status, dict));
 }
 
 export function initLiveStatus() {
   tick();
   setInterval(tick, 60_000);
-  document.addEventListener('i18n:change', () => {
-    cachedDict = null;
-    tick();
-  });
 }
